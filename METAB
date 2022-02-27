@@ -67,7 +67,6 @@ ScrollingFrame.BackgroundTransparency = 1.000
 ScrollingFrame.BorderSizePixel = 0
 ScrollingFrame.Position = UDim2.new(0.36953643, 0, 0.380081296, 0)
 ScrollingFrame.Size = UDim2.new(0, 195, 0, 243)
-ScrollingFrame.CanvasPosition = Vector2.new(0, 300)
 
 Button2.Name = "Button 2"
 Button2.Parent = ScrollingFrame
@@ -371,13 +370,12 @@ ImageLabel_2.Parent = METAB
 ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabel_2.BackgroundTransparency = 1.000
 ImageLabel_2.Size = UDim2.new(0, 1367, 0, 624)
-ImageLabel_2.Visible = false
 ImageLabel_2.Image = "http://www.roblox.com/asset/?id=8139799244"
 ImageLabel_2.ScaleType = Enum.ScaleType.Tile
 
 -- Scripts:
 
-local function ENVYTTN_fake_script() -- ImageButton.LocalScript 
+local function WGICP_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -385,8 +383,8 @@ local function ENVYTTN_fake_script() -- ImageButton.LocalScript
 	end)
 	
 end
-coroutine.wrap(ENVYTTN_fake_script)()
-local function RLIEEF_fake_script() -- ImageLabel.LocalScript 
+coroutine.wrap(WGICP_fake_script)()
+local function BRESNLZ_fake_script() -- ImageLabel.LocalScript 
 	local script = Instance.new('LocalScript', ImageLabel)
 
 	
@@ -464,8 +462,8 @@ local function RLIEEF_fake_script() -- ImageLabel.LocalScript
 	
 	
 end
-coroutine.wrap(RLIEEF_fake_script)()
-local function RDIIDF_fake_script() -- ImageLabel.LocalScript 
+coroutine.wrap(BRESNLZ_fake_script)()
+local function YZPVJL_fake_script() -- ImageLabel.LocalScript 
 	local script = Instance.new('LocalScript', ImageLabel)
 
 	while true do
@@ -483,8 +481,8 @@ local function RDIIDF_fake_script() -- ImageLabel.LocalScript
 		wait(.7)
 	end
 end
-coroutine.wrap(RDIIDF_fake_script)()
-local function MHUDZNG_fake_script() -- Button2.METAB SCRIPT 
+coroutine.wrap(YZPVJL_fake_script)()
+local function LKQADQ_fake_script() -- Button2.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button2)
 
 	
@@ -602,8 +600,8 @@ local function MHUDZNG_fake_script() -- Button2.METAB SCRIPT
 				end
 	end)
 end
-coroutine.wrap(MHUDZNG_fake_script)()
-local function BZBITOZ_fake_script() -- Button2_2.METAB SCRIPT 
+coroutine.wrap(LKQADQ_fake_script)()
+local function CRVHMUX_fake_script() -- Button2_2.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button2_2)
 
 	
@@ -717,8 +715,8 @@ local function BZBITOZ_fake_script() -- Button2_2.METAB SCRIPT
 		end)
 		end)
 end
-coroutine.wrap(BZBITOZ_fake_script)()
-local function JKVUBLG_fake_script() -- Button2_3.METAB SCRIPT 
+coroutine.wrap(CRVHMUX_fake_script)()
+local function ALFJBSD_fake_script() -- Button2_3.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button2_3)
 
 	
@@ -831,8 +829,8 @@ local function JKVUBLG_fake_script() -- Button2_3.METAB SCRIPT
 		end
 	end)
 end
-coroutine.wrap(JKVUBLG_fake_script)()
-local function NICYV_fake_script() -- Button2_4.METAB SCRIPT 
+coroutine.wrap(ALFJBSD_fake_script)()
+local function SUJRNQG_fake_script() -- Button2_4.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button2_4)
 
 	
@@ -947,8 +945,8 @@ local function NICYV_fake_script() -- Button2_4.METAB SCRIPT
 		end)
 	end)
 end
-coroutine.wrap(NICYV_fake_script)()
-local function IEYJF_fake_script() -- Button2_5.METAB SCRIPT 
+coroutine.wrap(SUJRNQG_fake_script)()
+local function GNGZY_fake_script() -- Button2_5.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button2_5)
 
 	
@@ -1066,8 +1064,8 @@ local function IEYJF_fake_script() -- Button2_5.METAB SCRIPT
 		end
 	end)
 end
-coroutine.wrap(IEYJF_fake_script)()
-local function NFYM_fake_script() -- Button2_6.METAB SCRIPT 
+coroutine.wrap(GNGZY_fake_script)()
+local function FMTG_fake_script() -- Button2_6.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button2_6)
 
 	
@@ -1180,8 +1178,8 @@ local function NFYM_fake_script() -- Button2_6.METAB SCRIPT
 		end
 	end)
 end
-coroutine.wrap(NFYM_fake_script)()
-local function SZGOR_fake_script() -- Button2_7.METAB SCRIPT 
+coroutine.wrap(FMTG_fake_script)()
+local function WTVGVWL_fake_script() -- Button2_7.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button2_7)
 
 	
@@ -1285,8 +1283,8 @@ local function SZGOR_fake_script() -- Button2_7.METAB SCRIPT
 		end
 	end)
 end
-coroutine.wrap(SZGOR_fake_script)()
-local function UGAEFO_fake_script() -- Button2_7.LocalScript 
+coroutine.wrap(WTVGVWL_fake_script)()
+local function DYUCWLR_fake_script() -- Button2_7.LocalScript 
 	local script = Instance.new('LocalScript', Button2_7)
 
 	local args = {
@@ -1295,8 +1293,8 @@ local function UGAEFO_fake_script() -- Button2_7.LocalScript
 	}
 	game:GetService("ReplicatedStorage").Events.EditBooth:FireServer(unpack(args))
 end
-coroutine.wrap(UGAEFO_fake_script)()
-local function KFWCZLX_fake_script() -- Button2_8.METAB SCRIPT 
+coroutine.wrap(DYUCWLR_fake_script)()
+local function OHDZ_fake_script() -- Button2_8.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button2_8)
 
 	
@@ -1400,16 +1398,16 @@ local function KFWCZLX_fake_script() -- Button2_8.METAB SCRIPT
 		end
 	end)
 end
-coroutine.wrap(KFWCZLX_fake_script)()
-local function SRWFPA_fake_script() -- CloseButton.LocalScript 
+coroutine.wrap(OHDZ_fake_script)()
+local function AQKEB_fake_script() -- CloseButton.LocalScript 
 	local script = Instance.new('LocalScript', CloseButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(SRWFPA_fake_script)()
-local function YGUEL_fake_script() -- CloseButton.ANIME 
+coroutine.wrap(AQKEB_fake_script)()
+local function BHXY_fake_script() -- CloseButton.ANIME 
 	local script = Instance.new('LocalScript', CloseButton)
 
 	local btn = script.Parent
@@ -1452,11 +1450,11 @@ local function YGUEL_fake_script() -- CloseButton.ANIME
 		end
 	end)
 end
-coroutine.wrap(YGUEL_fake_script)()
-local function FWFDVS_fake_script() -- ImageLabel_2.Script 
+coroutine.wrap(BHXY_fake_script)()
+local function FLGL_fake_script() -- ImageLabel_2.Script 
 	local script = Instance.new('Script', ImageLabel_2)
 
 	wait(4)
 	script.Parent:Destroy()
 end
-coroutine.wrap(FWFDVS_fake_script)()
+coroutine.wrap(FLGL_fake_script)()
