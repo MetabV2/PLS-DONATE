@@ -6,37 +6,29 @@ local ScrollingFrame = Instance.new("ScrollingFrame")
 local Button2 = Instance.new("ImageButton")
 local BtnText = Instance.new("TextLabel")
 local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
-local UIGradient = Instance.new("UIGradient")
 local Button2_2 = Instance.new("ImageButton")
 local BtnText_2 = Instance.new("TextLabel")
 local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
-local UIGradient_2 = Instance.new("UIGradient")
 local Button2_3 = Instance.new("ImageButton")
 local BtnText_3 = Instance.new("TextLabel")
 local UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint")
-local UIGradient_3 = Instance.new("UIGradient")
 local Button2_4 = Instance.new("ImageButton")
 local BtnText_4 = Instance.new("TextLabel")
 local UIAspectRatioConstraint_4 = Instance.new("UIAspectRatioConstraint")
-local UIGradient_4 = Instance.new("UIGradient")
 local Button2_5 = Instance.new("ImageButton")
 local BtnText_5 = Instance.new("TextLabel")
 local UIAspectRatioConstraint_5 = Instance.new("UIAspectRatioConstraint")
-local UIGradient_5 = Instance.new("UIGradient")
 local Button2_6 = Instance.new("ImageButton")
 local BtnText_6 = Instance.new("TextLabel")
 local UIAspectRatioConstraint_6 = Instance.new("UIAspectRatioConstraint")
-local UIGradient_6 = Instance.new("UIGradient")
 local Button2_7 = Instance.new("ImageButton")
 local BtnText_7 = Instance.new("TextLabel")
 local UIAspectRatioConstraint_7 = Instance.new("UIAspectRatioConstraint")
-local UIGradient_7 = Instance.new("UIGradient")
 local Button2_8 = Instance.new("ImageButton")
 local BtnText_8 = Instance.new("TextLabel")
 local UIAspectRatioConstraint_8 = Instance.new("UIAspectRatioConstraint")
-local UIGradient_8 = Instance.new("UIGradient")
 local CloseButton = Instance.new("ImageButton")
-local UIGradient_9 = Instance.new("UIGradient")
+local UIGradient = Instance.new("UIGradient")
 local UIAspectRatioConstraint_9 = Instance.new("UIAspectRatioConstraint")
 local ImageLabel_2 = Instance.new("ImageLabel")
 
@@ -67,7 +59,6 @@ ScrollingFrame.BackgroundTransparency = 1.000
 ScrollingFrame.BorderSizePixel = 0
 ScrollingFrame.Position = UDim2.new(0.36953643, 0, 0.380081296, 0)
 ScrollingFrame.Size = UDim2.new(0, 195, 0, 243)
-ScrollingFrame.CanvasPosition = Vector2.new(0, 300)
 
 Button2.Name = "Button 2"
 Button2.Parent = ScrollingFrame
@@ -99,11 +90,6 @@ BtnText.TextWrapped = true
 UIAspectRatioConstraint.Parent = Button2
 UIAspectRatioConstraint.AspectRatio = 3.042
 
-UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(19, 143, 143)), ColorSequenceKeypoint.new(0.98, Color3.fromRGB(19, 143, 143)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
-UIGradient.Offset = Vector2.new(-0.349999994, 0)
-UIGradient.Rotation = -135
-UIGradient.Parent = Button2
-
 Button2_2.Name = "Button 2"
 Button2_2.Parent = ScrollingFrame
 Button2_2.AnchorPoint = Vector2.new(1, 1)
@@ -133,11 +119,6 @@ BtnText_2.TextWrapped = true
 
 UIAspectRatioConstraint_2.Parent = Button2_2
 UIAspectRatioConstraint_2.AspectRatio = 3.042
-
-UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(19, 143, 143)), ColorSequenceKeypoint.new(0.98, Color3.fromRGB(19, 143, 143)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
-UIGradient_2.Offset = Vector2.new(-0.349999994, 0)
-UIGradient_2.Rotation = -135
-UIGradient_2.Parent = Button2_2
 
 Button2_3.Name = "Button 2"
 Button2_3.Parent = ScrollingFrame
@@ -169,11 +150,6 @@ BtnText_3.TextWrapped = true
 UIAspectRatioConstraint_3.Parent = Button2_3
 UIAspectRatioConstraint_3.AspectRatio = 3.042
 
-UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(19, 143, 143)), ColorSequenceKeypoint.new(0.98, Color3.fromRGB(19, 143, 143)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
-UIGradient_3.Offset = Vector2.new(-0.349999994, 0)
-UIGradient_3.Rotation = -135
-UIGradient_3.Parent = Button2_3
-
 Button2_4.Name = "Button 2"
 Button2_4.Parent = ScrollingFrame
 Button2_4.AnchorPoint = Vector2.new(1, 1)
@@ -203,11 +179,6 @@ BtnText_4.TextWrapped = true
 
 UIAspectRatioConstraint_4.Parent = Button2_4
 UIAspectRatioConstraint_4.AspectRatio = 3.042
-
-UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(19, 143, 143)), ColorSequenceKeypoint.new(0.98, Color3.fromRGB(19, 143, 143)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
-UIGradient_4.Offset = Vector2.new(-0.349999994, 0)
-UIGradient_4.Rotation = -135
-UIGradient_4.Parent = Button2_4
 
 Button2_5.Name = "Button 2"
 Button2_5.Parent = ScrollingFrame
@@ -239,11 +210,6 @@ BtnText_5.TextWrapped = true
 UIAspectRatioConstraint_5.Parent = Button2_5
 UIAspectRatioConstraint_5.AspectRatio = 3.042
 
-UIGradient_5.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(19, 143, 143)), ColorSequenceKeypoint.new(0.98, Color3.fromRGB(19, 143, 143)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
-UIGradient_5.Offset = Vector2.new(-0.349999994, 0)
-UIGradient_5.Rotation = -135
-UIGradient_5.Parent = Button2_5
-
 Button2_6.Name = "Button 2"
 Button2_6.Parent = ScrollingFrame
 Button2_6.AnchorPoint = Vector2.new(1, 1)
@@ -273,11 +239,6 @@ BtnText_6.TextWrapped = true
 
 UIAspectRatioConstraint_6.Parent = Button2_6
 UIAspectRatioConstraint_6.AspectRatio = 3.042
-
-UIGradient_6.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(19, 143, 143)), ColorSequenceKeypoint.new(0.98, Color3.fromRGB(19, 143, 143)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
-UIGradient_6.Offset = Vector2.new(-0.349999994, 0)
-UIGradient_6.Rotation = -135
-UIGradient_6.Parent = Button2_6
 
 Button2_7.Name = "Button 2"
 Button2_7.Parent = ScrollingFrame
@@ -309,11 +270,6 @@ BtnText_7.TextWrapped = true
 UIAspectRatioConstraint_7.Parent = Button2_7
 UIAspectRatioConstraint_7.AspectRatio = 3.042
 
-UIGradient_7.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(19, 143, 143)), ColorSequenceKeypoint.new(0.98, Color3.fromRGB(19, 143, 143)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
-UIGradient_7.Offset = Vector2.new(-0.349999994, 0)
-UIGradient_7.Rotation = -135
-UIGradient_7.Parent = Button2_7
-
 Button2_8.Name = "Button 2"
 Button2_8.Parent = ScrollingFrame
 Button2_8.AnchorPoint = Vector2.new(1, 1)
@@ -344,11 +300,6 @@ BtnText_8.TextWrapped = true
 UIAspectRatioConstraint_8.Parent = Button2_8
 UIAspectRatioConstraint_8.AspectRatio = 3.042
 
-UIGradient_8.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(19, 143, 143)), ColorSequenceKeypoint.new(0.98, Color3.fromRGB(19, 143, 143)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
-UIGradient_8.Offset = Vector2.new(-0.349999994, 0)
-UIGradient_8.Rotation = -135
-UIGradient_8.Parent = Button2_8
-
 CloseButton.Name = "CloseButton"
 CloseButton.Parent = ImageLabel
 CloseButton.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -359,10 +310,10 @@ CloseButton.Position = UDim2.new(0.628071308, 0, 0.122769609, 0)
 CloseButton.Size = UDim2.new(0.0927402824, 0, 0.0778043792, 0)
 CloseButton.Image = "http://www.roblox.com/asset/?id=7400386959"
 
-UIGradient_9.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 136, 255))}
-UIGradient_9.Offset = Vector2.new(-0.349999994, 0)
-UIGradient_9.Rotation = -135
-UIGradient_9.Parent = CloseButton
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 136, 255))}
+UIGradient.Offset = Vector2.new(-0.349999994, 0)
+UIGradient.Rotation = -135
+UIGradient.Parent = CloseButton
 
 UIAspectRatioConstraint_9.Parent = CloseButton
 UIAspectRatioConstraint_9.AspectRatio = 2.000
@@ -377,7 +328,7 @@ ImageLabel_2.ScaleType = Enum.ScaleType.Tile
 
 -- Scripts:
 
-local function WLCAL_fake_script() -- ImageButton.LocalScript 
+local function KGPUJX_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -385,8 +336,8 @@ local function WLCAL_fake_script() -- ImageButton.LocalScript
 	end)
 	
 end
-coroutine.wrap(WLCAL_fake_script)()
-local function YLWW_fake_script() -- ImageLabel.LocalScript 
+coroutine.wrap(KGPUJX_fake_script)()
+local function DYGB_fake_script() -- ImageLabel.LocalScript 
 	local script = Instance.new('LocalScript', ImageLabel)
 
 	
@@ -464,8 +415,8 @@ local function YLWW_fake_script() -- ImageLabel.LocalScript
 	
 	
 end
-coroutine.wrap(YLWW_fake_script)()
-local function EBRJYS_fake_script() -- ImageLabel.LocalScript 
+coroutine.wrap(DYGB_fake_script)()
+local function EFMAJLE_fake_script() -- ImageLabel.LocalScript 
 	local script = Instance.new('LocalScript', ImageLabel)
 
 	while true do
@@ -483,13 +434,13 @@ local function EBRJYS_fake_script() -- ImageLabel.LocalScript
 		wait(.7)
 	end
 end
-coroutine.wrap(EBRJYS_fake_script)()
-local function TWBQAB_fake_script() -- Button2.METAB SCRIPT 
+coroutine.wrap(EFMAJLE_fake_script)()
+local function VUTTPR_fake_script() -- Button2.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button2)
 
 	
 	
-	toggle = false
+	toggle = true
 	script.Parent.MouseButton1Down:connect(function()
 	
 		if toggle == true then 
@@ -501,7 +452,7 @@ local function TWBQAB_fake_script() -- Button2.METAB SCRIPT
 			script.Parent.ImageColor3 = Color3.fromRGB(60, 211, 194)
 		end
 		if toggle == false then 
-			script.Parent.ImageColor3 = Color3.fromRGB(26, 190, 190)
+			script.Parent.ImageColor3 = Color3.fromRGB(255, 0, 127)
 		end
 	
 		if toggle == true then
@@ -602,8 +553,8 @@ local function TWBQAB_fake_script() -- Button2.METAB SCRIPT
 				end
 	end)
 end
-coroutine.wrap(TWBQAB_fake_script)()
-local function FQUPF_fake_script() -- Button2_2.METAB SCRIPT 
+coroutine.wrap(VUTTPR_fake_script)()
+local function FJTIY_fake_script() -- Button2_2.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button2_2)
 
 	
@@ -612,7 +563,7 @@ local function FQUPF_fake_script() -- Button2_2.METAB SCRIPT
 	
 	
 	
-		toggle = false
+		toggle = true
 		script.Parent.MouseButton1Down:connect(function()
 	
 			if toggle == true then 
@@ -624,7 +575,7 @@ local function FQUPF_fake_script() -- Button2_2.METAB SCRIPT
 				script.Parent.ImageColor3 = Color3.fromRGB(60, 211, 194)
 			end
 			if toggle == false then 
-				script.Parent.ImageColor3 = Color3.fromRGB(26, 190, 190)
+				script.Parent.ImageColor3 = Color3.fromRGB(255, 0, 127)
 			end
 	
 			if toggle == true then
@@ -728,13 +679,13 @@ local function FQUPF_fake_script() -- Button2_2.METAB SCRIPT
 		end)
 		end)
 end
-coroutine.wrap(FQUPF_fake_script)()
-local function VRSEV_fake_script() -- Button2_3.METAB SCRIPT 
+coroutine.wrap(FJTIY_fake_script)()
+local function NDBOKV_fake_script() -- Button2_3.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button2_3)
 
 	
 	
-	toggle = false
+	toggle = true
 	script.Parent.MouseButton1Down:connect(function()
 	
 		if toggle == true then 
@@ -746,7 +697,7 @@ local function VRSEV_fake_script() -- Button2_3.METAB SCRIPT
 			script.Parent.ImageColor3 = Color3.fromRGB(60, 211, 194)
 		end
 		if toggle == false then 
-			script.Parent.ImageColor3 = Color3.fromRGB(26, 190, 190)
+			script.Parent.ImageColor3 = Color3.fromRGB(255, 0, 127)
 		end
 	
 		if toggle == true then
@@ -852,8 +803,8 @@ local function VRSEV_fake_script() -- Button2_3.METAB SCRIPT
 		end
 	end)
 end
-coroutine.wrap(VRSEV_fake_script)()
-local function UGVMB_fake_script() -- Button2_4.METAB SCRIPT 
+coroutine.wrap(NDBOKV_fake_script)()
+local function DIBD_fake_script() -- Button2_4.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button2_4)
 
 	
@@ -874,7 +825,7 @@ local function UGVMB_fake_script() -- Button2_4.METAB SCRIPT
 				script.Parent.ImageColor3 = Color3.fromRGB(60, 211, 194)
 			end
 			if toggle == false then 
-				script.Parent.ImageColor3 = Color3.fromRGB(26, 190, 190)
+				script.Parent.ImageColor3 = Color3.fromRGB(255, 0, 127)
 			end
 	
 			if toggle == true then
@@ -978,13 +929,13 @@ local function UGVMB_fake_script() -- Button2_4.METAB SCRIPT
 		end)
 	end)
 end
-coroutine.wrap(UGVMB_fake_script)()
-local function AZAHG_fake_script() -- Button2_5.METAB SCRIPT 
+coroutine.wrap(DIBD_fake_script)()
+local function LWMVD_fake_script() -- Button2_5.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button2_5)
 
 	
 	
-	toggle = false
+	toggle = true
 	script.Parent.MouseButton1Down:connect(function()
 	
 		if toggle == true then 
@@ -996,7 +947,7 @@ local function AZAHG_fake_script() -- Button2_5.METAB SCRIPT
 			script.Parent.ImageColor3 = Color3.fromRGB(60, 211, 194)
 		end
 		if toggle == false then 
-			script.Parent.ImageColor3 = Color3.fromRGB(26, 190, 190)
+			script.Parent.ImageColor3 = Color3.fromRGB(255, 0, 127)
 		end
 	
 		if toggle == true then
@@ -1097,13 +1048,13 @@ local function AZAHG_fake_script() -- Button2_5.METAB SCRIPT
 		end
 	end)
 end
-coroutine.wrap(AZAHG_fake_script)()
-local function DFPJ_fake_script() -- Button2_6.METAB SCRIPT 
+coroutine.wrap(LWMVD_fake_script)()
+local function VZGP_fake_script() -- Button2_6.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button2_6)
 
 	
 	
-	toggle = false
+	toggle = true
 	script.Parent.MouseButton1Down:connect(function()
 	
 		if toggle == true then 
@@ -1115,7 +1066,7 @@ local function DFPJ_fake_script() -- Button2_6.METAB SCRIPT
 			script.Parent.ImageColor3 = Color3.fromRGB(60, 211, 194)
 		end
 		if toggle == false then 
-			script.Parent.ImageColor3 = Color3.fromRGB(26, 190, 190)
+			script.Parent.ImageColor3 = Color3.fromRGB(255, 0, 127)
 		end
 	
 		if toggle == true then
@@ -1221,13 +1172,13 @@ local function DFPJ_fake_script() -- Button2_6.METAB SCRIPT
 		end
 	end)
 end
-coroutine.wrap(DFPJ_fake_script)()
-local function UACQ_fake_script() -- Button2_7.METAB SCRIPT 
+coroutine.wrap(VZGP_fake_script)()
+local function OUSR_fake_script() -- Button2_7.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button2_7)
 
 	
 	
-	toggle = false
+	toggle = true
 	script.Parent.MouseButton1Down:connect(function()
 	
 		if toggle == true then 
@@ -1239,7 +1190,7 @@ local function UACQ_fake_script() -- Button2_7.METAB SCRIPT
 			script.Parent.ImageColor3 = Color3.fromRGB(60, 211, 194)
 		end
 		if toggle == false then 
-			script.Parent.ImageColor3 = Color3.fromRGB(26, 190, 190)
+			script.Parent.ImageColor3 = Color3.fromRGB(255, 0, 127)
 		end
 	
 		if toggle == true then
@@ -1350,8 +1301,8 @@ local function UACQ_fake_script() -- Button2_7.METAB SCRIPT
 		end
 	end)
 end
-coroutine.wrap(UACQ_fake_script)()
-local function XJBQA_fake_script() -- Button2_7.LocalScript 
+coroutine.wrap(OUSR_fake_script)()
+local function XERGGQ_fake_script() -- Button2_7.LocalScript 
 	local script = Instance.new('LocalScript', Button2_7)
 
 	local args = {
@@ -1360,8 +1311,8 @@ local function XJBQA_fake_script() -- Button2_7.LocalScript
 	}
 	game:GetService("ReplicatedStorage").Events.EditBooth:FireServer(unpack(args))
 end
-coroutine.wrap(XJBQA_fake_script)()
-local function UBBHVE_fake_script() -- Button2_8.METAB SCRIPT 
+coroutine.wrap(XERGGQ_fake_script)()
+local function LVQHLJO_fake_script() -- Button2_8.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button2_8)
 
 	
@@ -1489,16 +1440,16 @@ local function UBBHVE_fake_script() -- Button2_8.METAB SCRIPT
 		end
 	end)
 end
-coroutine.wrap(UBBHVE_fake_script)()
-local function ZKFDVR_fake_script() -- CloseButton.LocalScript 
+coroutine.wrap(LVQHLJO_fake_script)()
+local function GQVPID_fake_script() -- CloseButton.LocalScript 
 	local script = Instance.new('LocalScript', CloseButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(ZKFDVR_fake_script)()
-local function MDHG_fake_script() -- CloseButton.ANIME 
+coroutine.wrap(GQVPID_fake_script)()
+local function VDXRDEO_fake_script() -- CloseButton.ANIME 
 	local script = Instance.new('LocalScript', CloseButton)
 
 	local btn = script.Parent
@@ -1541,11 +1492,11 @@ local function MDHG_fake_script() -- CloseButton.ANIME
 		end
 	end)
 end
-coroutine.wrap(MDHG_fake_script)()
-local function BWFHALM_fake_script() -- ImageLabel_2.Script 
+coroutine.wrap(VDXRDEO_fake_script)()
+local function KWROS_fake_script() -- ImageLabel_2.Script 
 	local script = Instance.new('Script', ImageLabel_2)
 
 	wait(4)
 	script.Parent:Destroy()
 end
-coroutine.wrap(BWFHALM_fake_script)()
+coroutine.wrap(KWROS_fake_script)()
