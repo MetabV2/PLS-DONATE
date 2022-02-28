@@ -39,6 +39,14 @@ local CloseButton = Instance.new("ImageButton")
 local UIGradient_9 = Instance.new("UIGradient")
 local UIAspectRatioConstraint_9 = Instance.new("UIAspectRatioConstraint")
 local ImageLabel_2 = Instance.new("ImageLabel")
+local ImageLabel_3 = Instance.new("ImageLabel")
+local TextBox = Instance.new("TextBox")
+local TextButton = Instance.new("TextButton")
+local UIGradient_10 = Instance.new("UIGradient")
+local UIAspectRatioConstraint_10 = Instance.new("UIAspectRatioConstraint")
+local TextButton_2 = Instance.new("TextButton")
+local UIGradient_11 = Instance.new("UIGradient")
+local UIAspectRatioConstraint_11 = Instance.new("UIAspectRatioConstraint")
 
 --Properties:
 
@@ -370,12 +378,69 @@ ImageLabel_2.Parent = METAB
 ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabel_2.BackgroundTransparency = 1.000
 ImageLabel_2.Size = UDim2.new(0, 1367, 0, 624)
+ImageLabel_2.Visible = false
 ImageLabel_2.Image = "http://www.roblox.com/asset/?id=8139799244"
 ImageLabel_2.ScaleType = Enum.ScaleType.Tile
 
+ImageLabel_3.Parent = METAB
+ImageLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_3.BackgroundTransparency = 1.000
+ImageLabel_3.Position = UDim2.new(0.370284766, 0, 0.187563524, 0)
+ImageLabel_3.Size = UDim2.new(0, 522, 0, 218)
+ImageLabel_3.Image = "http://www.roblox.com/asset/?id=7402946493"
+
+TextBox.Parent = ImageLabel_3
+TextBox.BackgroundColor3 = Color3.fromRGB(74, 152, 203)
+TextBox.BorderColor3 = Color3.fromRGB(67, 105, 132)
+TextBox.BorderSizePixel = 0
+TextBox.Position = UDim2.new(0.379976481, 0, 0.53350842, 0)
+TextBox.Size = UDim2.new(0, 124, 0, 70)
+TextBox.Font = Enum.Font.SourceSans
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.TextSize = 14.000
+
+TextButton.Parent = ImageLabel_3
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BackgroundTransparency = 0.500
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.53251034, 0, 0.420560181, 0)
+TextButton.Size = UDim2.new(0, 44, 0, 24)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "OFF"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 14.000
+
+UIGradient_10.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(19, 143, 143)), ColorSequenceKeypoint.new(0.98, Color3.fromRGB(19, 143, 143)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
+UIGradient_10.Offset = Vector2.new(-0.349999994, 0)
+UIGradient_10.Rotation = -135
+UIGradient_10.Parent = TextButton
+
+UIAspectRatioConstraint_10.Parent = TextButton
+UIAspectRatioConstraint_10.AspectRatio = 3.042
+
+TextButton_2.Parent = ImageLabel_3
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.BackgroundTransparency = 0.500
+TextButton_2.BorderSizePixel = 0
+TextButton_2.Position = UDim2.new(0.379654557, 0, 0.425147325, 0)
+TextButton_2.Size = UDim2.new(0, 44, 0, 22)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "ON"
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextSize = 14.000
+
+UIGradient_11.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(19, 143, 143)), ColorSequenceKeypoint.new(0.98, Color3.fromRGB(19, 143, 143)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
+UIGradient_11.Offset = Vector2.new(-0.349999994, 0)
+UIGradient_11.Rotation = -135
+UIGradient_11.Parent = TextButton_2
+
+UIAspectRatioConstraint_11.Parent = TextButton_2
+UIAspectRatioConstraint_11.AspectRatio = 3.042
+
 -- Scripts:
 
-local function WGICP_fake_script() -- ImageButton.LocalScript 
+local function UTTKJ_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -383,8 +448,8 @@ local function WGICP_fake_script() -- ImageButton.LocalScript
 	end)
 	
 end
-coroutine.wrap(WGICP_fake_script)()
-local function BRESNLZ_fake_script() -- ImageLabel.LocalScript 
+coroutine.wrap(UTTKJ_fake_script)()
+local function ADPAO_fake_script() -- ImageLabel.LocalScript 
 	local script = Instance.new('LocalScript', ImageLabel)
 
 	
@@ -462,8 +527,8 @@ local function BRESNLZ_fake_script() -- ImageLabel.LocalScript
 	
 	
 end
-coroutine.wrap(BRESNLZ_fake_script)()
-local function YZPVJL_fake_script() -- ImageLabel.LocalScript 
+coroutine.wrap(ADPAO_fake_script)()
+local function RTVU_fake_script() -- ImageLabel.LocalScript 
 	local script = Instance.new('LocalScript', ImageLabel)
 
 	while true do
@@ -481,8 +546,8 @@ local function YZPVJL_fake_script() -- ImageLabel.LocalScript
 		wait(.7)
 	end
 end
-coroutine.wrap(YZPVJL_fake_script)()
-local function LKQADQ_fake_script() -- Button2.METAB SCRIPT 
+coroutine.wrap(RTVU_fake_script)()
+local function WSMIY_fake_script() -- Button2.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button2)
 
 	
@@ -600,8 +665,8 @@ local function LKQADQ_fake_script() -- Button2.METAB SCRIPT
 				end
 	end)
 end
-coroutine.wrap(LKQADQ_fake_script)()
-local function CRVHMUX_fake_script() -- Button2_2.METAB SCRIPT 
+coroutine.wrap(WSMIY_fake_script)()
+local function WTJJ_fake_script() -- Button2_2.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button2_2)
 
 	
@@ -715,8 +780,8 @@ local function CRVHMUX_fake_script() -- Button2_2.METAB SCRIPT
 		end)
 		end)
 end
-coroutine.wrap(CRVHMUX_fake_script)()
-local function ALFJBSD_fake_script() -- Button2_3.METAB SCRIPT 
+coroutine.wrap(WTJJ_fake_script)()
+local function RTVRE_fake_script() -- Button2_3.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button2_3)
 
 	
@@ -829,8 +894,8 @@ local function ALFJBSD_fake_script() -- Button2_3.METAB SCRIPT
 		end
 	end)
 end
-coroutine.wrap(ALFJBSD_fake_script)()
-local function SUJRNQG_fake_script() -- Button2_4.METAB SCRIPT 
+coroutine.wrap(RTVRE_fake_script)()
+local function WJNTCB_fake_script() -- Button2_4.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button2_4)
 
 	
@@ -945,8 +1010,8 @@ local function SUJRNQG_fake_script() -- Button2_4.METAB SCRIPT
 		end)
 	end)
 end
-coroutine.wrap(SUJRNQG_fake_script)()
-local function GNGZY_fake_script() -- Button2_5.METAB SCRIPT 
+coroutine.wrap(WJNTCB_fake_script)()
+local function WHQJIA_fake_script() -- Button2_5.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button2_5)
 
 	
@@ -1064,8 +1129,8 @@ local function GNGZY_fake_script() -- Button2_5.METAB SCRIPT
 		end
 	end)
 end
-coroutine.wrap(GNGZY_fake_script)()
-local function FMTG_fake_script() -- Button2_6.METAB SCRIPT 
+coroutine.wrap(WHQJIA_fake_script)()
+local function QQNAA_fake_script() -- Button2_6.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button2_6)
 
 	
@@ -1178,8 +1243,8 @@ local function FMTG_fake_script() -- Button2_6.METAB SCRIPT
 		end
 	end)
 end
-coroutine.wrap(FMTG_fake_script)()
-local function WTVGVWL_fake_script() -- Button2_7.METAB SCRIPT 
+coroutine.wrap(QQNAA_fake_script)()
+local function XVBJGX_fake_script() -- Button2_7.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button2_7)
 
 	
@@ -1283,8 +1348,8 @@ local function WTVGVWL_fake_script() -- Button2_7.METAB SCRIPT
 		end
 	end)
 end
-coroutine.wrap(WTVGVWL_fake_script)()
-local function DYUCWLR_fake_script() -- Button2_7.LocalScript 
+coroutine.wrap(XVBJGX_fake_script)()
+local function YKXMXDS_fake_script() -- Button2_7.LocalScript 
 	local script = Instance.new('LocalScript', Button2_7)
 
 	local args = {
@@ -1293,8 +1358,8 @@ local function DYUCWLR_fake_script() -- Button2_7.LocalScript
 	}
 	game:GetService("ReplicatedStorage").Events.EditBooth:FireServer(unpack(args))
 end
-coroutine.wrap(DYUCWLR_fake_script)()
-local function OHDZ_fake_script() -- Button2_8.METAB SCRIPT 
+coroutine.wrap(YKXMXDS_fake_script)()
+local function GNFFP_fake_script() -- Button2_8.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button2_8)
 
 	
@@ -1398,16 +1463,16 @@ local function OHDZ_fake_script() -- Button2_8.METAB SCRIPT
 		end
 	end)
 end
-coroutine.wrap(OHDZ_fake_script)()
-local function AQKEB_fake_script() -- CloseButton.LocalScript 
+coroutine.wrap(GNFFP_fake_script)()
+local function YKLPRXZ_fake_script() -- CloseButton.LocalScript 
 	local script = Instance.new('LocalScript', CloseButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(AQKEB_fake_script)()
-local function BHXY_fake_script() -- CloseButton.ANIME 
+coroutine.wrap(YKLPRXZ_fake_script)()
+local function JYMQ_fake_script() -- CloseButton.ANIME 
 	local script = Instance.new('LocalScript', CloseButton)
 
 	local btn = script.Parent
@@ -1450,11 +1515,321 @@ local function BHXY_fake_script() -- CloseButton.ANIME
 		end
 	end)
 end
-coroutine.wrap(BHXY_fake_script)()
-local function FLGL_fake_script() -- ImageLabel_2.Script 
+coroutine.wrap(JYMQ_fake_script)()
+local function EPCUJA_fake_script() -- ImageLabel_2.Script 
 	local script = Instance.new('Script', ImageLabel_2)
 
 	wait(4)
 	script.Parent:Destroy()
 end
-coroutine.wrap(FLGL_fake_script)()
+coroutine.wrap(EPCUJA_fake_script)()
+local function DXYRM_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	
+	script.Parent.MouseButton1Down:connect(function()
+		_G.Toggle = false
+		while _G.Toggle do
+			wait(0.1)
+			local args = {
+				[1] = '<font color="#9400D3">' .. script.Parent.Parent.TextBox.Text .. '</font>',
+				[2] = "booth"
+			}
+	
+			game:GetService("ReplicatedStorage").Events.EditBooth:FireServer(unpack(args))
+			wait(0.1)
+			local args = {
+				[1] = '<font color="#0000FF">' .. script.Parent.Parent.TextBox.Text .. '</font>',
+				[2] = "booth"
+			}
+	
+			game:GetService("ReplicatedStorage").Events.EditBooth:FireServer(unpack(args))
+			wait(0.1)
+			local args = {
+				[1] = '<font color="#FFFF00">' .. script.Parent.Parent.TextBox.Text .. '</font>',
+				[2] = "booth"
+			}
+	
+			game:GetService("ReplicatedStorage").Events.EditBooth:FireServer(unpack(args))
+			wait(0.1)
+			local args = {
+				[1] = '<font color="#FF7F00">' .. script.Parent.Parent.TextBox.Text .. '</font>',
+				[2] = "booth"
+			}
+	
+			game:GetService("ReplicatedStorage").Events.EditBooth:FireServer(unpack(args))
+			wait(0.1)
+			local args = {
+				[1] = '<font color="#FF0000">' .. script.Parent.Parent.TextBox.Text .. '</font>',
+				[2] = "booth"
+			}
+	
+			game:GetService("ReplicatedStorage").Events.EditBooth:FireServer(unpack(args))
+			wait(0.1)
+	
+		end
+	
+	end)
+	
+end
+coroutine.wrap(DXYRM_fake_script)()
+local function MDNA_fake_script() -- TextButton.METAB SCRIPT 
+	local script = Instance.new('LocalScript', TextButton)
+
+	
+	
+	toggle = false
+	script.Parent.MouseButton1Down:connect(function()
+	
+		if toggle == true then 
+			toggle = false 
+		else
+			toggle = true
+		end
+		if toggle == true then 
+			script.Parent.ImageColor3 = Color3.fromRGB(60, 211, 194)
+		end
+		if toggle == false then 
+			script.Parent.ImageColor3 = Color3.fromRGB(26, 190, 190)
+		end
+	
+		if toggle == true then
+			_G.Toggle = true
+			while _G.Toggle do
+				wait(0.1)
+				local args = {
+					[1] = "<stroke color=\"#9400D3\" thickness=\"7\"><font color= \"#000000\"><font face=\"Bangers\">x╔═══════╗x \n0-------------10000 \nx╚═══════╝X</font></font></stroke>",
+					[2] = "booth"
+				}
+				game:GetService("ReplicatedStorage").Events.EditBooth:FireServer(unpack(args))
+				wait(0.1)
+				local args = {
+					[1] = "<stroke color=\"#0000FF\" thickness=\"7\"><font color= \"#000000\"><font face=\"Bangers\">x╔═══════╗x \n0-------------10000 \nx╚═══════╝X</font></font></stroke>",
+					[2] = "booth"
+				}
+				game:GetService("ReplicatedStorage").Events.EditBooth:FireServer(unpack(args))
+				wait(0.1)			local args = {
+					[1] = "<stroke color=\"#FFFF00\" thickness=\"7\"><font color= \"#000000\"><font face=\"Bangers\">x╔═══════╗x \n0-------------10000 \nx╚═══════╝X</font></font></stroke>",
+					[2] = "booth"
+				}
+				game:GetService("ReplicatedStorage").Events.EditBooth:FireServer(unpack(args))
+				wait(0.1)			local args = {
+					[1] = "<stroke color=\"#FF7F00\" thickness=\"7\"><font color= \"#000000\"><font face=\"Bangers\">x╔═══════╗x \n0-------------10000 \nx╚═══════╝X</font></font></stroke>",
+					[2] = "booth"
+				}
+				game:GetService("ReplicatedStorage").Events.EditBooth:FireServer(unpack(args))
+				wait(0.1)			local args = {
+					[1] = "<stroke color=\"#FF0000\" thickness=\"7\"><font color= \"#000000\"><font face=\"Bangers\">x╔═══════╗x \n0-------------10000 \nx╚═══════╝X</font></font></stroke>",
+					[2] = "booth"
+				}
+				game:GetService("ReplicatedStorage").Events.EditBooth:FireServer(unpack(args))
+				wait(0.1)			local args = {
+					[1] = "<stroke color=\"#FF7F00\" thickness=\"7\"><font color= \"#000000\"><font face=\"Bangers\">x╔═══════╗x \n0-------------10000 \nx╚═══════╝X</font></font></stroke>",
+					[2] = "booth"
+				}
+				game:GetService("ReplicatedStorage").Events.EditBooth:FireServer(unpack(args))
+				wait(0.1)
+	
+			end
+	
+		end
+		if toggle == false then 
+			_G.Toggle = false
+	
+	
+			wait(0.1)
+	
+			local args = {
+				[1] = "<stroke color=\"#9400D3\" thickness=\"7\"><font color= \"#000000\"><font face=\"Bangers\">x╔═══════╗x \n0-------------10000 \nx╚═══════╝X</font></font></stroke>",
+				[2] = "booth"
+			}
+			game:GetService("ReplicatedStorage").Events.EditBooth:FireServer(unpack(args))
+			wait(0.1)
+			local args = {
+				[1] = "<stroke color=\"#0000FF\" thickness=\"7\"><font color= \"#000000\"><font face=\"Bangers\">x╔═══════╗x \n0-------------10000 \nx╚═══════╝X</font></font></stroke>",
+				[2] = "booth"
+			}
+			game:GetService("ReplicatedStorage").Events.EditBooth:FireServer(unpack(args))
+			wait(0.1)			local args = {
+				[1] = "<stroke color=\"#FFFF00\" thickness=\"7\"><font color= \"#000000\"><font face=\"Bangers\">x╔═══════╗x \n0-------------10000 \nx╚═══════╝X</font></font></stroke>",
+				[2] = "booth"
+			}
+			game:GetService("ReplicatedStorage").Events.EditBooth:FireServer(unpack(args))
+			wait(0.1)			local args = {
+				[1] = "<stroke color=\"#FF7F00\" thickness=\"7\"><font color= \"#000000\"><font face=\"Bangers\">x╔═══════╗x \n0-------------10000 \nx╚═══════╝X</font></font></stroke>",
+				[2] = "booth"
+			}
+			game:GetService("ReplicatedStorage").Events.EditBooth:FireServer(unpack(args))
+			wait(0.1)			local args = {
+				[1] = "<stroke color=\"#FF0000\" thickness=\"7\"><font color= \"#000000\"><font face=\"Bangers\">x╔═══════╗x \n0-------------10000 \nx╚═══════╝X</font></font></stroke>",
+				[2] = "booth"
+			}
+			game:GetService("ReplicatedStorage").Events.EditBooth:FireServer(unpack(args))
+			wait(0.1)			local args = {
+				[1] = "<stroke color=\"#FF7F00\" thickness=\"7\"><font color= \"#000000\"><font face=\"Bangers\">x╔═══════╗x \n0-------------10000 \nx╚═══════╝X</font></font></stroke>",
+				[2] = "booth"
+			}
+			game:GetService("ReplicatedStorage").Events.EditBooth:FireServer(unpack(args))
+			wait(0.1)
+	
+	
+	
+		end
+	end)
+end
+coroutine.wrap(MDNA_fake_script)()
+local function JAJKFW_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	
+	script.Parent.MouseButton1Down:connect(function()
+		_G.Toggle = true
+		while _G.Toggle do
+			wait(0.1)
+			local args = {
+				[1] = '<font color="#9400D3">' .. script.Parent.Parent.TextBox.Text .. '</font>',
+				[2] = "booth"
+			}
+	
+			game:GetService("ReplicatedStorage").Events.EditBooth:FireServer(unpack(args))
+			wait(0.1)
+			local args = {
+				[1] = '<font color="#0000FF">' .. script.Parent.Parent.TextBox.Text .. '</font>',
+				[2] = "booth"
+			}
+	
+			game:GetService("ReplicatedStorage").Events.EditBooth:FireServer(unpack(args))
+			wait(0.1)
+			local args = {
+				[1] = '<font color="#FFFF00">' .. script.Parent.Parent.TextBox.Text .. '</font>',
+				[2] = "booth"
+			}
+	
+			game:GetService("ReplicatedStorage").Events.EditBooth:FireServer(unpack(args))
+			wait(0.1)
+			local args = {
+				[1] = '<font color="#FF7F00">' .. script.Parent.Parent.TextBox.Text .. '</font>',
+				[2] = "booth"
+			}
+	
+			game:GetService("ReplicatedStorage").Events.EditBooth:FireServer(unpack(args))
+			wait(0.1)
+			local args = {
+				[1] = '<font color="#FF0000">' .. script.Parent.Parent.TextBox.Text .. '</font>',
+				[2] = "booth"
+			}
+	
+			game:GetService("ReplicatedStorage").Events.EditBooth:FireServer(unpack(args))
+			wait(0.1)
+	
+		end
+	
+	end)
+	
+end
+coroutine.wrap(JAJKFW_fake_script)()
+local function PYLR_fake_script() -- TextButton_2.METAB SCRIPT 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	
+	
+	toggle = false
+	script.Parent.MouseButton1Down:connect(function()
+	
+		if toggle == true then 
+			toggle = false 
+		else
+			toggle = true
+		end
+		if toggle == true then 
+			script.Parent.ImageColor3 = Color3.fromRGB(60, 211, 194)
+		end
+		if toggle == false then 
+			script.Parent.ImageColor3 = Color3.fromRGB(26, 190, 190)
+		end
+	
+		if toggle == true then
+			_G.Toggle = true
+			while _G.Toggle do
+				wait(0.1)
+				local args = {
+					[1] = "<stroke color=\"#9400D3\" thickness=\"7\"><font color= \"#000000\"><font face=\"Bangers\">x╔═══════╗x \n0-------------10000 \nx╚═══════╝X</font></font></stroke>",
+					[2] = "booth"
+				}
+				game:GetService("ReplicatedStorage").Events.EditBooth:FireServer(unpack(args))
+				wait(0.1)
+				local args = {
+					[1] = "<stroke color=\"#0000FF\" thickness=\"7\"><font color= \"#000000\"><font face=\"Bangers\">x╔═══════╗x \n0-------------10000 \nx╚═══════╝X</font></font></stroke>",
+					[2] = "booth"
+				}
+				game:GetService("ReplicatedStorage").Events.EditBooth:FireServer(unpack(args))
+				wait(0.1)			local args = {
+					[1] = "<stroke color=\"#FFFF00\" thickness=\"7\"><font color= \"#000000\"><font face=\"Bangers\">x╔═══════╗x \n0-------------10000 \nx╚═══════╝X</font></font></stroke>",
+					[2] = "booth"
+				}
+				game:GetService("ReplicatedStorage").Events.EditBooth:FireServer(unpack(args))
+				wait(0.1)			local args = {
+					[1] = "<stroke color=\"#FF7F00\" thickness=\"7\"><font color= \"#000000\"><font face=\"Bangers\">x╔═══════╗x \n0-------------10000 \nx╚═══════╝X</font></font></stroke>",
+					[2] = "booth"
+				}
+				game:GetService("ReplicatedStorage").Events.EditBooth:FireServer(unpack(args))
+				wait(0.1)			local args = {
+					[1] = "<stroke color=\"#FF0000\" thickness=\"7\"><font color= \"#000000\"><font face=\"Bangers\">x╔═══════╗x \n0-------------10000 \nx╚═══════╝X</font></font></stroke>",
+					[2] = "booth"
+				}
+				game:GetService("ReplicatedStorage").Events.EditBooth:FireServer(unpack(args))
+				wait(0.1)			local args = {
+					[1] = "<stroke color=\"#FF7F00\" thickness=\"7\"><font color= \"#000000\"><font face=\"Bangers\">x╔═══════╗x \n0-------------10000 \nx╚═══════╝X</font></font></stroke>",
+					[2] = "booth"
+				}
+				game:GetService("ReplicatedStorage").Events.EditBooth:FireServer(unpack(args))
+				wait(0.1)
+	
+			end
+	
+		end
+		if toggle == false then 
+			_G.Toggle = false
+	
+	
+			wait(0.1)
+	
+			local args = {
+				[1] = "<stroke color=\"#9400D3\" thickness=\"7\"><font color= \"#000000\"><font face=\"Bangers\">x╔═══════╗x \n0-------------10000 \nx╚═══════╝X</font></font></stroke>",
+				[2] = "booth"
+			}
+			game:GetService("ReplicatedStorage").Events.EditBooth:FireServer(unpack(args))
+			wait(0.1)
+			local args = {
+				[1] = "<stroke color=\"#0000FF\" thickness=\"7\"><font color= \"#000000\"><font face=\"Bangers\">x╔═══════╗x \n0-------------10000 \nx╚═══════╝X</font></font></stroke>",
+				[2] = "booth"
+			}
+			game:GetService("ReplicatedStorage").Events.EditBooth:FireServer(unpack(args))
+			wait(0.1)			local args = {
+				[1] = "<stroke color=\"#FFFF00\" thickness=\"7\"><font color= \"#000000\"><font face=\"Bangers\">x╔═══════╗x \n0-------------10000 \nx╚═══════╝X</font></font></stroke>",
+				[2] = "booth"
+			}
+			game:GetService("ReplicatedStorage").Events.EditBooth:FireServer(unpack(args))
+			wait(0.1)			local args = {
+				[1] = "<stroke color=\"#FF7F00\" thickness=\"7\"><font color= \"#000000\"><font face=\"Bangers\">x╔═══════╗x \n0-------------10000 \nx╚═══════╝X</font></font></stroke>",
+				[2] = "booth"
+			}
+			game:GetService("ReplicatedStorage").Events.EditBooth:FireServer(unpack(args))
+			wait(0.1)			local args = {
+				[1] = "<stroke color=\"#FF0000\" thickness=\"7\"><font color= \"#000000\"><font face=\"Bangers\">x╔═══════╗x \n0-------------10000 \nx╚═══════╝X</font></font></stroke>",
+				[2] = "booth"
+			}
+			game:GetService("ReplicatedStorage").Events.EditBooth:FireServer(unpack(args))
+			wait(0.1)			local args = {
+				[1] = "<stroke color=\"#FF7F00\" thickness=\"7\"><font color= \"#000000\"><font face=\"Bangers\">x╔═══════╗x \n0-------------10000 \nx╚═══════╝X</font></font></stroke>",
+				[2] = "booth"
+			}
+			game:GetService("ReplicatedStorage").Events.EditBooth:FireServer(unpack(args))
+			wait(0.1)
+	
+	
+	
+		end
+	end)
+end
+coroutine.wrap(PYLR_fake_script)()
