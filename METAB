@@ -54,7 +54,7 @@ local ImageLabel_2 = Instance.new("ImageLabel")
 --Properties:
 
 METAB.Name = "METAB"
-METAB.Parent = CoreGui
+METAB.Parent = game.CoreGui
 METAB.ResetOnSpawn = false
 
 ImageButton.Parent = METAB
