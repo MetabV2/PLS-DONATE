@@ -38,8 +38,7 @@ local UIGradient_8 = Instance.new("UIGradient")
 local CloseButton = Instance.new("ImageButton")
 local UIGradient_9 = Instance.new("UIGradient")
 local UIAspectRatioConstraint_9 = Instance.new("UIAspectRatioConstraint")
-local ImageLabel_2 = Instance.new("ImageLabel")
-local ImageLabel_3 = Instance.new("ImageLabel")
+local ImageMETA = Instance.new("ImageLabel")
 local TextBox = Instance.new("TextBox")
 local TextButton = Instance.new("TextButton")
 local UIGradient_10 = Instance.new("UIGradient")
@@ -47,11 +46,15 @@ local UIAspectRatioConstraint_10 = Instance.new("UIAspectRatioConstraint")
 local TextButton_2 = Instance.new("TextButton")
 local UIGradient_11 = Instance.new("UIGradient")
 local UIAspectRatioConstraint_11 = Instance.new("UIAspectRatioConstraint")
+local CloseButton_2 = Instance.new("ImageButton")
+local UIGradient_12 = Instance.new("UIGradient")
+local UIAspectRatioConstraint_12 = Instance.new("UIAspectRatioConstraint")
+local ImageLabel_2 = Instance.new("ImageLabel")
 
 --Properties:
 
 METAB.Name = "METAB"
-METAB.Parent = game.CoreGui
+METAB.Parent = CoreGui
 METAB.ResetOnSpawn = false
 
 ImageButton.Parent = METAB
@@ -374,33 +377,26 @@ UIGradient_9.Parent = CloseButton
 UIAspectRatioConstraint_9.Parent = CloseButton
 UIAspectRatioConstraint_9.AspectRatio = 2.000
 
-ImageLabel_2.Parent = METAB
-ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ImageLabel_2.BackgroundTransparency = 1.000
-ImageLabel_2.Size = UDim2.new(0, 1367, 0, 624)
-ImageLabel_2.Visible = false
-ImageLabel_2.Image = "http://www.roblox.com/asset/?id=8139799244"
-ImageLabel_2.ScaleType = Enum.ScaleType.Tile
+ImageMETA.Name = "ImageMETA"
+ImageMETA.Parent = METAB
+ImageMETA.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageMETA.BackgroundTransparency = 1.000
+ImageMETA.Position = UDim2.new(0.370284766, 0, 0.187563524, 0)
+ImageMETA.Size = UDim2.new(0, 522, 0, 218)
+ImageMETA.Image = "http://www.roblox.com/asset/?id=7402946493"
 
-ImageLabel_3.Parent = METAB
-ImageLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ImageLabel_3.BackgroundTransparency = 1.000
-ImageLabel_3.Position = UDim2.new(0.370284766, 0, 0.187563524, 0)
-ImageLabel_3.Size = UDim2.new(0, 522, 0, 218)
-ImageLabel_3.Image = "http://www.roblox.com/asset/?id=7402946493"
-
-TextBox.Parent = ImageLabel_3
+TextBox.Parent = ImageMETA
 TextBox.BackgroundColor3 = Color3.fromRGB(74, 152, 203)
 TextBox.BorderColor3 = Color3.fromRGB(67, 105, 132)
 TextBox.BorderSizePixel = 0
 TextBox.Position = UDim2.new(0.379976481, 0, 0.53350842, 0)
 TextBox.Size = UDim2.new(0, 124, 0, 70)
 TextBox.Font = Enum.Font.SourceSans
-TextBox.Text = ""
+TextBox.Text = "YOUR RAIMBOW TEXT"
 TextBox.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextBox.TextSize = 14.000
 
-TextButton.Parent = ImageLabel_3
+TextButton.Parent = ImageMETA
 TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextButton.BackgroundTransparency = 0.500
 TextButton.BorderSizePixel = 0
@@ -419,7 +415,7 @@ UIGradient_10.Parent = TextButton
 UIAspectRatioConstraint_10.Parent = TextButton
 UIAspectRatioConstraint_10.AspectRatio = 3.042
 
-TextButton_2.Parent = ImageLabel_3
+TextButton_2.Parent = ImageMETA
 TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_2.BackgroundTransparency = 0.500
 TextButton_2.BorderSizePixel = 0
@@ -438,9 +434,34 @@ UIGradient_11.Parent = TextButton_2
 UIAspectRatioConstraint_11.Parent = TextButton_2
 UIAspectRatioConstraint_11.AspectRatio = 3.042
 
+CloseButton_2.Name = "CloseButton"
+CloseButton_2.Parent = ImageMETA
+CloseButton_2.AnchorPoint = Vector2.new(0.5, 0.5)
+CloseButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CloseButton_2.BackgroundTransparency = 1.000
+CloseButton_2.BorderSizePixel = 0
+CloseButton_2.Position = UDim2.new(0.631045043, 0, 0.131943941, 0)
+CloseButton_2.Size = UDim2.new(0.147562012, 0, 0.252116382, 0)
+CloseButton_2.Image = "http://www.roblox.com/asset/?id=7400386959"
+
+UIGradient_12.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 136, 255))}
+UIGradient_12.Offset = Vector2.new(-0.349999994, 0)
+UIGradient_12.Rotation = -135
+UIGradient_12.Parent = CloseButton_2
+
+UIAspectRatioConstraint_12.Parent = CloseButton_2
+UIAspectRatioConstraint_12.AspectRatio = 2.000
+
+ImageLabel_2.Parent = METAB
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_2.BackgroundTransparency = 1.000
+ImageLabel_2.Size = UDim2.new(0, 1367, 0, 624)
+ImageLabel_2.Image = "http://www.roblox.com/asset/?id=8139799244"
+ImageLabel_2.ScaleType = Enum.ScaleType.Tile
+
 -- Scripts:
 
-local function UTTKJ_fake_script() -- ImageButton.LocalScript 
+local function WTJKMDA_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -448,8 +469,17 @@ local function UTTKJ_fake_script() -- ImageButton.LocalScript
 	end)
 	
 end
-coroutine.wrap(UTTKJ_fake_script)()
-local function ADPAO_fake_script() -- ImageLabel.LocalScript 
+coroutine.wrap(WTJKMDA_fake_script)()
+local function YOPKM_fake_script() -- ImageButton.LocalScript 
+	local script = Instance.new('LocalScript', ImageButton)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.ImageMETA.Visible = not script.Parent.Parent.ImageMETA.Visible
+	end)
+	
+end
+coroutine.wrap(YOPKM_fake_script)()
+local function XPAIF_fake_script() -- ImageLabel.LocalScript 
 	local script = Instance.new('LocalScript', ImageLabel)
 
 	
@@ -527,8 +557,8 @@ local function ADPAO_fake_script() -- ImageLabel.LocalScript
 	
 	
 end
-coroutine.wrap(ADPAO_fake_script)()
-local function RTVU_fake_script() -- ImageLabel.LocalScript 
+coroutine.wrap(XPAIF_fake_script)()
+local function TXOREN_fake_script() -- ImageLabel.LocalScript 
 	local script = Instance.new('LocalScript', ImageLabel)
 
 	while true do
@@ -546,8 +576,8 @@ local function RTVU_fake_script() -- ImageLabel.LocalScript
 		wait(.7)
 	end
 end
-coroutine.wrap(RTVU_fake_script)()
-local function WSMIY_fake_script() -- Button2.METAB SCRIPT 
+coroutine.wrap(TXOREN_fake_script)()
+local function BITTRV_fake_script() -- Button2.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button2)
 
 	
@@ -665,8 +695,8 @@ local function WSMIY_fake_script() -- Button2.METAB SCRIPT
 				end
 	end)
 end
-coroutine.wrap(WSMIY_fake_script)()
-local function WTJJ_fake_script() -- Button2_2.METAB SCRIPT 
+coroutine.wrap(BITTRV_fake_script)()
+local function NJCKDHU_fake_script() -- Button2_2.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button2_2)
 
 	
@@ -780,8 +810,8 @@ local function WTJJ_fake_script() -- Button2_2.METAB SCRIPT
 		end)
 		end)
 end
-coroutine.wrap(WTJJ_fake_script)()
-local function RTVRE_fake_script() -- Button2_3.METAB SCRIPT 
+coroutine.wrap(NJCKDHU_fake_script)()
+local function BCVLBF_fake_script() -- Button2_3.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button2_3)
 
 	
@@ -894,8 +924,8 @@ local function RTVRE_fake_script() -- Button2_3.METAB SCRIPT
 		end
 	end)
 end
-coroutine.wrap(RTVRE_fake_script)()
-local function WJNTCB_fake_script() -- Button2_4.METAB SCRIPT 
+coroutine.wrap(BCVLBF_fake_script)()
+local function AGKXDOA_fake_script() -- Button2_4.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button2_4)
 
 	
@@ -1010,8 +1040,8 @@ local function WJNTCB_fake_script() -- Button2_4.METAB SCRIPT
 		end)
 	end)
 end
-coroutine.wrap(WJNTCB_fake_script)()
-local function WHQJIA_fake_script() -- Button2_5.METAB SCRIPT 
+coroutine.wrap(AGKXDOA_fake_script)()
+local function AXGPYM_fake_script() -- Button2_5.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button2_5)
 
 	
@@ -1129,8 +1159,8 @@ local function WHQJIA_fake_script() -- Button2_5.METAB SCRIPT
 		end
 	end)
 end
-coroutine.wrap(WHQJIA_fake_script)()
-local function QQNAA_fake_script() -- Button2_6.METAB SCRIPT 
+coroutine.wrap(AXGPYM_fake_script)()
+local function DZUTDI_fake_script() -- Button2_6.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button2_6)
 
 	
@@ -1243,8 +1273,8 @@ local function QQNAA_fake_script() -- Button2_6.METAB SCRIPT
 		end
 	end)
 end
-coroutine.wrap(QQNAA_fake_script)()
-local function XVBJGX_fake_script() -- Button2_7.METAB SCRIPT 
+coroutine.wrap(DZUTDI_fake_script)()
+local function BKBOMI_fake_script() -- Button2_7.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button2_7)
 
 	
@@ -1348,8 +1378,8 @@ local function XVBJGX_fake_script() -- Button2_7.METAB SCRIPT
 		end
 	end)
 end
-coroutine.wrap(XVBJGX_fake_script)()
-local function YKXMXDS_fake_script() -- Button2_7.LocalScript 
+coroutine.wrap(BKBOMI_fake_script)()
+local function DELU_fake_script() -- Button2_7.LocalScript 
 	local script = Instance.new('LocalScript', Button2_7)
 
 	local args = {
@@ -1358,8 +1388,8 @@ local function YKXMXDS_fake_script() -- Button2_7.LocalScript
 	}
 	game:GetService("ReplicatedStorage").Events.EditBooth:FireServer(unpack(args))
 end
-coroutine.wrap(YKXMXDS_fake_script)()
-local function GNFFP_fake_script() -- Button2_8.METAB SCRIPT 
+coroutine.wrap(DELU_fake_script)()
+local function NCCAT_fake_script() -- Button2_8.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button2_8)
 
 	
@@ -1463,16 +1493,16 @@ local function GNFFP_fake_script() -- Button2_8.METAB SCRIPT
 		end
 	end)
 end
-coroutine.wrap(GNFFP_fake_script)()
-local function YKLPRXZ_fake_script() -- CloseButton.LocalScript 
+coroutine.wrap(NCCAT_fake_script)()
+local function IXYHF_fake_script() -- CloseButton.LocalScript 
 	local script = Instance.new('LocalScript', CloseButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(YKLPRXZ_fake_script)()
-local function JYMQ_fake_script() -- CloseButton.ANIME 
+coroutine.wrap(IXYHF_fake_script)()
+local function RKRPRZ_fake_script() -- CloseButton.ANIME 
 	local script = Instance.new('LocalScript', CloseButton)
 
 	local btn = script.Parent
@@ -1515,15 +1545,8 @@ local function JYMQ_fake_script() -- CloseButton.ANIME
 		end
 	end)
 end
-coroutine.wrap(JYMQ_fake_script)()
-local function EPCUJA_fake_script() -- ImageLabel_2.Script 
-	local script = Instance.new('Script', ImageLabel_2)
-
-	wait(4)
-	script.Parent:Destroy()
-end
-coroutine.wrap(EPCUJA_fake_script)()
-local function DXYRM_fake_script() -- TextButton.LocalScript 
+coroutine.wrap(RKRPRZ_fake_script)()
+local function EOREUNA_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	
@@ -1572,8 +1595,8 @@ local function DXYRM_fake_script() -- TextButton.LocalScript
 	end)
 	
 end
-coroutine.wrap(DXYRM_fake_script)()
-local function MDNA_fake_script() -- TextButton.METAB SCRIPT 
+coroutine.wrap(EOREUNA_fake_script)()
+local function WPZC_fake_script() -- TextButton.METAB SCRIPT 
 	local script = Instance.new('LocalScript', TextButton)
 
 	
@@ -1677,8 +1700,8 @@ local function MDNA_fake_script() -- TextButton.METAB SCRIPT
 		end
 	end)
 end
-coroutine.wrap(MDNA_fake_script)()
-local function JAJKFW_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(WPZC_fake_script)()
+local function LYTAOX_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	
@@ -1727,8 +1750,8 @@ local function JAJKFW_fake_script() -- TextButton_2.LocalScript
 	end)
 	
 end
-coroutine.wrap(JAJKFW_fake_script)()
-local function PYLR_fake_script() -- TextButton_2.METAB SCRIPT 
+coroutine.wrap(LYTAOX_fake_script)()
+local function XWWOV_fake_script() -- TextButton_2.METAB SCRIPT 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	
@@ -1832,4 +1855,142 @@ local function PYLR_fake_script() -- TextButton_2.METAB SCRIPT
 		end
 	end)
 end
-coroutine.wrap(PYLR_fake_script)()
+coroutine.wrap(XWWOV_fake_script)()
+local function SQBACYH_fake_script() -- CloseButton_2.LocalScript 
+	local script = Instance.new('LocalScript', CloseButton_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+end
+coroutine.wrap(SQBACYH_fake_script)()
+local function IPNYRC_fake_script() -- CloseButton_2.ANIME 
+	local script = Instance.new('LocalScript', CloseButton_2)
+
+	local btn = script.Parent
+	local uiGradient = btn:WaitForChild("UIGradient")
+	
+	local isHovering = false
+	
+	local tweenService = game:GetService("TweenService")
+	local tweenInfo = TweenInfo.new(0.4, Enum.EasingStyle.Quint, Enum.EasingDirection.InOut)
+	
+	local gradientRestoreTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(-0.35, 0)})
+	local gradientAddTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(1, 0)})
+	
+	
+	btn.MouseEnter:Connect(function()
+		
+		isHovering = true
+		
+		gradientAddTween:Play()
+	end)
+	
+	btn.MouseLeave:Connect(function()
+		
+		isHovering = false
+		
+		gradientRestoreTween:Play()
+	end)
+	
+	btn.MouseButton1Down:Connect(function()
+		
+		gradientRestoreTween:Play()
+	end)
+	
+	btn.MouseButton1Up:Connect(function()
+		
+		if not isHovering then
+			gradientRestoreTween:Play()
+		else
+			gradientAddTween:Play()
+		end
+	end)
+end
+coroutine.wrap(IPNYRC_fake_script)()
+local function EKPL_fake_script() -- ImageMETA.LocalScript 
+	local script = Instance.new('LocalScript', ImageMETA)
+
+	
+	local UIS = game:GetService('UserInputService')
+	
+	local frame = script.Parent
+	
+	
+	
+	local dragToggle = nil
+	
+	local dragSpeed = 0.25
+	
+	local dragStart = nil
+	
+	local startPos = nil
+	
+	
+	
+	local function updateInput(input)
+	
+		local delta = input.Position - dragStart
+	
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+	
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+	
+	end
+	
+	
+	
+	frame.InputBegan:Connect(function(input)
+	
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+	
+			dragToggle = true
+	
+			dragStart = input.Position
+	
+			startPos = frame.Position
+	
+			input.Changed:Connect(function()
+	
+				if input.UserInputState == Enum.UserInputState.End then
+	
+					dragToggle = false
+	
+				end
+	
+			end)
+	
+		end
+	
+	end)
+	
+	
+	
+	UIS.InputChanged:Connect(function(input)
+	
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+	
+			if dragToggle then
+	
+				updateInput(input)
+	
+			end
+	
+		end
+	
+	end)
+	
+	
+	
+	
+end
+coroutine.wrap(EKPL_fake_script)()
+local function KEIBOFZ_fake_script() -- ImageLabel_2.Script 
+	local script = Instance.new('Script', ImageLabel_2)
+
+	wait(4)
+	script.Parent:Destroy()
+end
+coroutine.wrap(KEIBOFZ_fake_script)()
